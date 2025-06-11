@@ -1,4 +1,3 @@
-// Validação do formulário
 const feedbackForm = document.getElementById('feedback-form');
 const nomeInput = document.getElementById('nome');
 const emailInput = document.getElementById('email');
@@ -57,7 +56,6 @@ feedbackForm.addEventListener('submit', (e) => {
   }
 });
 
-// Menu mobile
 const navToggle = document.querySelector('.nav__toggle');
 const navList = document.querySelector('.nav__list');
 
@@ -67,7 +65,6 @@ navToggle.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', !expanded);
 });
 
-// Linha do tempo
 const timelineSteps = document.querySelectorAll('.timeline__step');
 const prevBtn = document.querySelector('.timeline__btn--prev');
 const nextBtn = document.querySelector('.timeline__btn--next');
