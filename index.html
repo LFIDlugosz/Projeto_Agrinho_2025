@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustentabilidade e Consumo Consciente: A Força da Produção Rural nas Cidades</title>
+  <meta name="description" content="Landing page sobre sustentabilidade e o papel fundamental da produção rural para o consumo consciente nas cidades. Descubra benefícios, etapas do campo à mesa e compartilhe sua opinião!">
+  
+  <!-- CSS Externos -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fontes e Ícones -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav" aria-label="Menu principal">
+      <div class="nav__logo">
+        <img src="img/farmer-man-logo-mascot-agricultu.png" alt="Mascote Agricultor Sustentável" class="nav__mascot rounded-image" width="56" height="56">
+        <span class="nav__title">Campo & Cidade Sustentáveis</span>
+      </div>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-list">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav__list" id="menu-list">
+        <li><a href="#introducao">Início</a></li>
+        <li><a href="#beneficios">Benefícios</a></li>
+        <li><a href="#timeline">Do Campo à Mesa</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+    <section class="header__hero" id="introducao">
+      <div class="header__text">
+        <h1>Sustentabilidade e Consumo Consciente</h1>
+        <p>
+          A busca por um futuro sustentável começa com escolhas conscientes no presente. A produção rural é o elo vital que conecta o campo à mesa das cidades, promovendo qualidade de vida, geração de renda e equilíbrio ambiental.
+        </p>
+        <p>
+          Valorizar o agricultor e consumir de forma responsável são atitudes que reduzem impactos ambientais, fortalecem a economia local e garantem alimentos mais saudáveis para todos. Juntos, podemos transformar nossas cidades em espaços mais verdes e resilientes.
+        </p>
+        <a href="#timeline" class="btn">Conheça a jornada do alimento</a>
+      </div>
+      <figure class="header__image">
+        <img src="img/fazendaurbanacuritiba.png" alt="Vista do campo conectado à cidade sustentável" loading="lazy">
+        <figcaption>O campo e a cidade em harmonia sustentável.</figcaption>
+      </figure>
+    </section>
+  </header>
+
+  <main>
+    <section class="benefits" id="beneficios">
+      <div class="container">
+        <h2 class="benefits__title">Por que valorizar a produção rural?</h2>
+        <div class="benefits__cards">
+          <article class="benefits__card">
+            <img src="img/feiraprodutor.png" alt="Agricultor vendendo produtos na feira" class="benefits__card-img" loading="lazy">
+            <div class="benefits__card-content">
+              <h3 class="benefits__card-title">Geração de Renda Local</h3>
+              <p class="benefits__card-desc">
+                O fortalecimento do campo impulsiona a economia regional, gerando empregos e promovendo desenvolvimento social nas comunidades próximas às cidades.
+              </p>
+            </div>
+          </article>
+          <article class="benefits__card">
+            <img src="img/Criancas-colhendo-bertalhas.jpg" alt="Crianças colhendo vegetais na horta" class="benefits__card-img" loading="lazy">
+            <div class="benefits__card-content">
+              <h3 class="benefits__card-title">Alimentos Mais Saudáveis</h3>
+              <p class="benefits__card-desc">
+                Incentivar a produção rural sustentável garante produtos frescos, livres de agrotóxicos em excesso e com menor necessidade de transporte.
+              </p>
+            </div>
+          </article>
+          <article class="benefits__card">
+            <img src="img/Projeto-incentiva-polinizacao-em.png" alt="Projeto de preservação com polinizadores" class="benefits__card-img" loading="lazy">
+            <div class="benefits__card-content">
+              <h3 class="benefits__card-title">Preservação Ambiental</h3>
+              <p class="benefits__card-desc">
+                Práticas agrícolas conscientes protegem o solo, a água e a biodiversidade, contribuindo para a mitigação das mudanças climáticas.
+              </p>
+            </div>
+          </article>
+          <article class="benefits__card">
+            <img src="img/geracaoRenda.png" alt="Feira rural com produtos locais" class="benefits__card-img" loading="lazy">
+            <div class="benefits__card-content">
+              <h3 class="benefits__card-title">Fortalecimento das Feiras</h3>
+              <p class="benefits__card-desc">
+                As feiras conectam produtores e consumidores, estimulando relações de confiança e incentivando o consumo responsável e justo.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline" id="timeline" aria-labelledby="timeline-title">
+      <div class="container">
+        <h2 id="timeline-title" class="timeline__title">Do Campo à Mesa: A Jornada do Alimento</h2>
+        <div class="timeline__container" tabindex="0" aria-label="Linha do tempo do alimento">
+          <button class="timeline__btn timeline__btn--prev" aria-label="Etapa anterior">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <ul class="timeline__steps" id="timeline-steps">
+            <li class="timeline__step timeline__step--active">
+              <img src="img/plantacao.png" alt="Plantio das sementes" loading="lazy">
+              <div>
+                <h3>Plantio</h3>
+                <p>O ciclo começa com a preparação do solo e o plantio de sementes selecionadas, respeitando a época certa para cada cultura.</p>
+              </div>
+            </li>
+            <li class="timeline__step">
+              <img src="img/colheira.png" alt="Colheita dos alimentos" loading="lazy">
+              <div>
+                <h3>Colheita</h3>
+                <p>Após meses de cuidado, agricultores realizam a colheita, selecionando alimentos frescos e de qualidade para o consumo.</p>
+              </div>
+            </li>
+            <li class="timeline__step">
+              <img src="img/transporteAgricola.png" alt="Transporte dos produtos rurais" loading="lazy">
+              <div>
+                <h3>Transporte</h3>
+                <p>Produtos são transportados de forma eficiente, priorizando rotas curtas para reduzir a emissão de carbono.</p>
+              </div>
+            </li>
+            <li class="timeline__step">
+              <img src="img/distribuicaoFeiras.png" alt="Distribuição em feira local" loading="lazy">
+              <div>
+                <h3>Distribuição em Feiras</h3>
+                <p>Nas feiras, produtores apresentam seus alimentos diretamente aos consumidores, promovendo o consumo local e sustentável.</p>
+              </div>
+            </li>
+            <li class="timeline__step">
+              <img src="img/ChegaAoConsumidor.png" alt="Consumo consciente nas cidades" loading="lazy">
+              <div>
+                <h3>Chegada ao Consumidor</h3>
+                <p>Finalmente, o alimento chega à mesa das famílias urbanas, incentivando escolhas conscientes e saudáveis.</p>
+              </div>
+            </li>
+          </ul>
+          <button class="timeline__btn timeline__btn--next" aria-label="Próxima etapa">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="timeline__indicators" id="timeline-indicators">
+          <span class="timeline__indicator timeline__indicator--active" data-index="0"></span>
+          <span class="timeline__indicator" data-index="1"></span>
+          <span class="timeline__indicator" data-index="2"></span>
+          <span class="timeline__indicator" data-index="3"></span>
+          <span class="timeline__indicator" data-index="4"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <h2 class="feedback__title">Deixe sua opinião!</h2>
+        <form class="feedback__form" id="feedback-form" novalidate autocomplete="off" aria-describedby="feedback-desc">
+          <p id="feedback-desc" class="sr-only">Formulário para envio de nome, e-mail e sugestão sobre sustentabilidade e produção rural.</p>
+          <div class="form__group">
+            <label for="nome">Nome <span aria-hidden="true">*</span></label>
+            <input type="text" id="nome" name="nome" required aria-required="true" maxlength="40" autocomplete="name">
+            <span class="form__error" id="nome-error" aria-live="polite"></span>
+          </div>
+          <div class="form__group">
+            <label for="email">E-mail <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" required aria-required="true" maxlength="50" autocomplete="email">
+            <span class="form__error" id="email-error" aria-live="polite"></span>
+          </div>
+          <div class="form__group">
+            <label for="sugestao">Sugestão/Opinião <span aria-hidden="true">*</span></label>
+            <textarea id="sugestao" name="sugestao" required aria-required="true" minlength="20" maxlength="300" rows="4"></textarea>
+            <span class="form__error" id="sugestao-error" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn--accent">Enviar</button>
+          <span class="form__success" id="form-success" aria-live="polite"></span>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__contacts">
+      <img src="img/farmer-man-logo-mascot-agricultu.png" alt="Mascote Agricultor Sustentável" class="footer__mascot rounded-image" width="36" height="36">
+      <div>
+        <strong>Contato:</strong>
+        <p><i class="fas fa-envelope"></i> luis.dlugosz@escola.pr.gov.br</p>
+      </div>
+    </div>
+    
+    <div class="footer__copy">
+      <p>&copy; 2025 Campo & Cidade Sustentáveis. Projeto acadêmico. <a href="#" aria-label="Repositório GitHub">GitHub</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts Externos -->
+  <script src="script.js"></script>
+</body>
+</html>
